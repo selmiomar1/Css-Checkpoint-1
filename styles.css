@@ -1,0 +1,71 @@
+/* Importing the Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-div{
+    margin-right: 1000px;
+}
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    padding: 40px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-item {
+    display: inline;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+.navbar-link:hover {
+    background-color: #555;
+}
+
+/* Section styles */
+.section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.home-section {
+    background-color: #f4f4f4;
+}
+
+.about-section {
+    background-color: #e2e2e2;
+}
+
+.services-section {
+    background-color: #d0d0d0;
+}
+
+.contact-section {
+    background-color: #bebebe;
+}
+
+/* Footer styles */
+.site-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
